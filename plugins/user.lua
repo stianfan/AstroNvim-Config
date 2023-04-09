@@ -9,4 +9,21 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+  {
+    "folke/todo-comments.nvim",
+    dependencies = { "nvim-lua/plenary.nvim" },
+    opts = {},
+    event = "User AstroFile",
+    keys = {
+      { "<leader>T", "<cmd>TodoTelescope<cr>", desc = "Open TODOs in Telescope view" },
+    },
+  },
+  {
+    "eddyekofo94/gruvbox-flat.nvim",
+    config = function()
+      vim.cmd [[colorscheme gruvbox-flat]]
+      vim.o.background = "dark"
+      vim.g.gruvbox_flat_style = "hard"
+    end,
+  },
 }
