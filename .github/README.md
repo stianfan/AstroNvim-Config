@@ -43,4 +43,5 @@ Change the color on line 56:
 
 
 ![AstroNvim-Dash](https://user-images.githubusercontent.com/118314012/230991028-3570d137-1581-4b00-8a6e-7daae0ba0171.png)
+
 ![AstroNvim-init](https://user-images.githubusercontent.com/118314012/230991030-c1f03649-991c-44f0-93ba-510169d05cec.png)
