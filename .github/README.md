@@ -21,7 +21,7 @@ mv ~/.local/share/nvim ~/.local/share/nvim.bak
 git clone https://github.com/AstroNvim/AstroNvim ~/.config/nvim
 ```
 
-#### Clone the repository
+#### Clone this repository
 
 ```shell
 git clone https://github.com/stianfan/AstroNvim-Config ~/.config/nvim/lua/user
@@ -40,3 +40,7 @@ in:
 
 Change the color on line 56:
 	colors.bg = "#000000"
+
+
+![AstroNvim-Dash](https://user-images.githubusercontent.com/118314012/230991028-3570d137-1581-4b00-8a6e-7daae0ba0171.png)
+![AstroNvim-init](https://user-images.githubusercontent.com/118314012/230991030-c1f03649-991c-44f0-93ba-510169d05cec.png)
